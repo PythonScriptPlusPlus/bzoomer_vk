@@ -62,7 +62,7 @@ for event in longpoll.listen():
 
 
             elif request.lower() == "код":
-                write_msg(event.user_id,"https://github.com/PythonScriptPlusPlus/vk_bot")
+                write_msg(event.user_id,"https://github.com/PythonScriptPlusPlus/bzoomer_vk")
 
             else:
                 write_msg(event.user_id, 'У меня нет такой команды. Чтобы узнать команды и что они делают, напиши "Help"')
